@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap');
+
+* {
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base font size for better responsiveness */
+html {
+    font-size: 16px;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: bitter, regular 400;
+}
+
+.discover {
+    /* width: 100%; */
+    height: 100vh;
+    background-image: url("images/dicover.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2% 0;
+    margin-bottom: -2%;
+}
+
+
+
+.ntab {
+    display: flex;
+    justify-content: space-evenly; /* Changed to space-between */
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.8vw;
+}
+
+.ntab a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.8vw;
+}
+
+.ntab img {
+    width: 10%; /* Adjusted width */
+    height: auto;
+}
+
+.content {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 6.8%;
+    margin-top: 3.8%;
+}
+
+.content h2 {
+    font-size: 4.5vw;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.content p {
+    font-size: 1.7vw;
+    margin-top: 0.2vh;
+}
+
+
+
+
+
+
+.vp2 img {
+    border-radius: 50%;
+    width: 1000px;
+    height: 1000px;
+}
+
+.vp2 .vp-description {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.vp2 .vp-description h2 {
+    font-size: 2vw;
+    margin-bottom: 10px;
+}
+
+.vp2 .vp-description p {
+    font-size: 1.5vw;
+    margin-bottom: 20px;
+}
+
+.vp3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vp3 img {
+    border-radius: 50%;
+    width: 1000px;
+    height: 1000px;
+}
+
+.vp3 .vp-description {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.vp3 .vp-description h2 {
+    font-size: 2vw;
+    margin-bottom: 10px;
+}
+
+.vp3 .vp-description p {
+    font-size: 1.5vw;
+    margin-bottom: 20px;
+}
+
+
+.vp1 img {
+    padding-top: 2%;
+    border-radius: 50%;
+    width: 1000px;
+    height: 1000px;
+}
+
+.vp1 dots{
+    width: 50px;
+    height: 50px;
+}
+
+.vp1 .vp-description {
+    text-align: center;
+}
+
+.vp1 .vp-description h2 {
+    font-size: 2vw;
+    margin-bottom: 10px;
+}
+
+.vp1 .vp-description p {
+    font-size: 1.5vw;
+    margin-bottom: 20px;
+}
+
+
+
+.vp2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vp2 img {
+    border-radius: 50%;
+    width: 1000px;
+    height: 1000px;
+}
+
+.vp2 .vp-description {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.vp2 .vp-description h2 {
+    font-size: 2vw;
+    margin-bottom: 10px;
+}
+
+.vp2 .vp-description p {
+    font-size: 1.5vw;
+    margin-bottom: 20px;
+}
+
+.vp3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vp3 img {
+    border-radius: 50%;
+    width: 1000px;
+    height: 1000px;
+}
+
+.vp3 .vp-description {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.vp3 .vp-description h2 {
+    font-size: 2vw;
+    margin-bottom: 10px;
+}
+
+.vp3 .vp-description p {
+    font-size: 1.5vw;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.the-asanas {
+    height: 100vh;
+    background-image: url('images/the-asanas.png');
+    background-size: cover;  
+    background-position: center; 
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+.the-asanas h2 {
+    font-family: permanent marker, thin;
+    font-size: 4vw;
+    padding-top: 15vh; 
+    color: rgb(231, 231, 231);
+    margin: 0;
+}
+
+.the-asanas img {
+    width: 8%;
+    padding-top: 10vh;
+}
+
+.see-more button {
+    font-size: 1.2vw; 
+    width: 30%; 
+    height: auto;
+    border: 2px solid rgb(5, 169, 106);
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 1vw 0; 
+    margin-top: 5vh;
+    
+}
+
+
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 20px;
+    height: 10vh;
+}
+
+/* Left "ABOUT" section */
+.about-section {
+    /* gap: px; */
+    flex: 1;
+    margin-top: 3%;
+    padding: 0 10px;
+    margin-left:10% ;
+    font-size: 1.8vw;
+}
+
+.about-section img{
+    width: 55%;
+    height: 30%;
+}
+
+/* Right mini-sections */
+.mini-section {
+    flex: 1;
+    margin-top: 8%;
+    font-size: 1.4vw;
+}
+.mini-section-divs {
+    flex: 1;
+    margin-top: 8%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 300px;
+    /* gap: 440px; */
+}
+
+h2 {
+    font-size: 1.6vw;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 0;
+    margin-top: 0;
+    list-style-type: none;
+
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footbar {
+    /* position:fixed;*/
+    bottom: 0; 
+    left: 0; 
+    width: 100%;
+    color: white;
+    background-color: teal;
+    padding-top: 2%;
+    font-size: 1.2vw;
+    text-align: center;
+    padding: 15px 0;
+}
+
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 2768px) {
+    .discover{
+        height: 38vh;
+    }
+    .container {
+        flex-direction: column;
+        height: 38vh;
+        font-size: 1.2vw;
+    }
+    .walking-in-nature{
+        height: 38vh;
+    }
+    .visiting-places {
+        height: 36vh;
+    }
+    .rock-climbing{
+        height: 55vh;
+    }
+    .rock-climbing img {
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .visiting-places-head{
+        font-size: 1.2vw;
+    }
+    .vp1 img,
+    .vp2 img,
+    .vp3 img
+    {
+        width: 200px;
+        height: 200px; 
+    }
+    .the-asanas{
+        height: 56vh;
+    }
+    .container{
+        height: 20vh;
+    }
+    .rock-climbing-lower{
+        padding-top:0 ;
+    }
+    .rock-climbing-lower-left {
+        gap: 11%;
+        /* padding-top: 120px; */
+        display: flex;
+        font-size: 1.8vw;
+        font-weight: bold;
+        line-height: 35px;
+        /* letter-spacing: 3px; */
+        word-spacing: 6px;
+    }
+    .rock-climbing-lower-left-bold1,
+    .rock-climbing-lower-left-bold2 {
+        margin-top: 2vh; /* Adjusted margin */
+        width: 150px;
+    }
+    
+    .about-section,
+    .mini-section {
+        flex: 1;
+        margin-bottom: 20px;
+    
+    }
+    .mini-section-divs{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .footbar {
+        color: white;
+        background-color:teal;
+        height: 2%;
+        font-size: 1vw; 
+        text-align: center;
+    }
+}
+
+
+
+
+
+
